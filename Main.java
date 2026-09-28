@@ -2,10 +2,40 @@ public class Main {
 
    public static void main(String []args) {
       System.out.println("It makes no sense to divide a number by zero!");
-      System.out.println(3/0);
+     // System.out.println(3/0);
 
+         
+   /*  9/28  */
+   //declare a variable
 
+   double myGradeAverage;
 
+   //assign a value
+
+   myGradeAverage = 95.0;
+
+   //initialize a variable
+   double myDreamGrade = 100.0;
+
+   //we can format strings using concatenation (+)
+   System.out.println("My current grade is: " + myGradeAverage);
+   
+   System.out.println("My dream grade is " + myDreamGrade + "!");
+
+   // printing a quote using an escape sequence
+   // escapse sequences always use \
+   // \n gives a new line
+   // we use \\ to actually print one \
+   System.out.println("My teacher always says,\n\"Study for your test!\"");
+
+   // arithmetic operations (+ - * /)
+   // working with only ints, output will be an int
+   // int / int does TRUNCATING DIVISION removes the decimal, does not round
+   System.out.println(5*10);
+   // if we want to divide and get a decimal, we need to divide with a double
+   System.out.println(19.0/10);
+   // % gives us the remainder 
+   System.out.println(12%10);
    }
 }
 
@@ -58,7 +88,18 @@ public class Main {
    Or do it in one step
    3. Initialize Variable ---> int x = 5; String name = "Nick"
 
+
+   9/28/26
+   
+   Initiallize a Variable - declare and assign in one statement
+   Concatenate - the action of linking things together in a series or chain
+
+
 */
+
+
+
+
 
 // --> line comment
 /* bulk comment */
