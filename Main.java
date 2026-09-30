@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
    public static void main(String []args) {
@@ -26,16 +28,42 @@ public class Main {
    // escapse sequences always use \
    // \n gives a new line
    // we use \\ to actually print one \
-   System.out.println("My teacher always says,\n\"Study for your test!\"");
+   //System.out.println("My teacher always says,\n\"Study for your test!\"");
 
    // arithmetic operations (+ - * /)
    // working with only ints, output will be an int
    // int / int does TRUNCATING DIVISION removes the decimal, does not round
-   System.out.println(5*10);
+   //System.out.println(5*10);
    // if we want to divide and get a decimal, we need to divide with a double
-   System.out.println(19.0/10);
+   //System.out.println(19.0/10);
    // % gives us the remainder 
-   System.out.println(12%10);
+   //System.out.println(12%10);
+
+   int myNum = 7;
+   int newNum = myNum;
+   newNum = 8;
+
+   // System.out.println(myNum);
+   // System.out.println(newNum);
+
+   // incrementing variable
+   myNum = myNum + 1;
+   myNum = myNum + 1;
+
+   // this handles the assingment and the addition at once
+   myNum++;
+
+   // decrementing
+   myNum = myNum - 1;
+   myNum--;
+
+   System.out.println(myNum);
+   // System.out.println(newNum);
+
+   // working with Scanner class and text input
+   System.out.print("Greetings human! What is your name?");
+   Scanner scan = new Scanner(System.in);
+
    }
 }
 
