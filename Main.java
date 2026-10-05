@@ -57,18 +57,62 @@ public class Main {
    myNum = myNum - 1;
    myNum--;
 
-   System.out.println(myNum);
+   //System.out.println(myNum);
    // System.out.println(newNum);
 
    // working with Scanner class and text input
-   System.out.print("Greetings human! What is your name?");
-   Scanner scan = new Scanner(System.in);
+   //System.out.print("Greetings human! What is your name?");
+   //Scanner scan = new Scanner(System.in);
+
+      // 10/5/26
+
+      double doubleNum = 5.0;
+      System.out.println((int) doubleNum / 2);
+   
+      // cast from a double to an int, it will truncate our double
+      // casting from an int to a double will just add .0 to the end
+      System.out.println((int) 4.3);
+      System.out.println((double) 2);
+
+      double number;    // positive value from somewhere
+      double negNumber; // negative value from somewhere
+
+      number = 4.9;
+      negNumber = -3.6;
+      int nearestInt = (int)(number + 0.5);
+      int nearestNegInt = (int)(negNumber - 0.5);
+
+      System.out.println(nearestInt);
+      System.out.println(nearestNegInt);
+
+
+      //coding challenge:
+      // 1) declare and initialize grades
+       int grade1 = 70;
+       int grade2 = 80;
+       int grade3 = 90;
+
+      // 2) declare sum
+       int sum = 80;
+
+      // 3) declare average as double
+       double average = 20.0;
+
+      // 4) compute sum
+       sum = grade1 + grade2 + grade3;
+
+      // 5) compute average with casting
+       average = ((double) sum) / 3;
+
+      // 6) print result
+       System.out.println(average);
+
 
    }
 }
 
 /* COMMENTS FOR NOTE TAKING!!! 
-   9/18/26
+   -9/18/26
    Algorithms: Step by step proccess to accomp a task
    Psuedocode: Simplified code to outline programs/algorithms (fake code)
    Sequencing: The order of steps
@@ -82,7 +126,7 @@ public class Main {
    JAVASCRIPT:
    - JavaScript helps front-end developers build interactive web pages
    
-   9/22/26
+   -9/22/26
 
    Object-oriented programming: programming built on classes and objects
    Classes: blueprint of an object (no memory)
@@ -93,7 +137,7 @@ public class Main {
    Every action in java ends with a semi-colon 
       
 
-   9/23/26
+   -9/23/26
 
    Primitive type - storing simple information/data
    Object (Reference) type - storing complex data/objects (ex. Creature cat = new Creature())
@@ -117,10 +161,14 @@ public class Main {
    3. Initialize Variable ---> int x = 5; String name = "Nick"
 
 
-   9/28/26
+   -9/28/26
    
    Initiallize a Variable - declare and assign in one statement
    Concatenate - the action of linking things together in a series or chain
+
+   -10/5/26 (casting)
+   Casting allows us to change from one data type to another
+   We cast using a "cast operator" writting in () before our expression
 
 
 */
