@@ -108,6 +108,41 @@ public class Main {
        System.out.println(average);
 
 
+       // 10/6/26
+       // compound assignment operators always have the math symbol first, and then the equal sign
+       average = average + 1;
+       average += 1;
+       System.out.println(average);
+       
+       // we can do compound operators with any number, not just 1
+       average -= 2;
+       // our most condensed version only increments or decrements by 1
+       average--;
+       System.out.println(average);
+
+      // activity
+      int score = 0;
+      System.out.println(score); // 0
+
+      score++;                   // +1
+      System.out.println(score); // 1
+
+      score *= 2;                // ×2
+      System.out.println(score); // 2
+
+      int penalty = 5;
+      score -= penalty / 2;      // 2 - (5/2) -> 2 - 2 -> 0 (integer division)
+      System.out.println(score); // 0
+
+      // 1) Add 3 to score using a compound operator
+      score += 3; 
+
+      // 2) Divide score by 2 using a compound operator
+      score /= 2;
+
+       
+
+
    }
 }
 
