@@ -205,6 +205,15 @@ public class Main {
    Casting allows us to change from one data type to another
    We cast using a "cast operator" writting in () before our expression
 
+   -10/9/26
+   Precondition 
+      - before the method runs
+      - what must be true
+
+   Postcondition
+      - after method runs 
+      - what must be true
+
 
 */
 
