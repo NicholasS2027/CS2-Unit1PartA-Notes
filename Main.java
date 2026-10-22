@@ -140,6 +140,8 @@ public class Main {
       // 2) Divide score by 2 using a compound operator
       score /= 2;
 
+       // 10/22/26
+
        
 
 
@@ -214,6 +216,13 @@ public class Main {
       - after method runs 
       - what must be true
 
+
+
+      10/22/26
+      -Method 
+      ex. methodname() {
+        execute a task
+      }
 
 */
 
