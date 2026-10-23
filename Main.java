@@ -39,23 +39,23 @@ public class Main {
    // % gives us the remainder 
    //System.out.println(12%10);
 
-   int myNum = 7;
-   int newNum = myNum;
-   newNum = 8;
+   //int myNum = 7;
+   //int newNum = myNum;
+   //newNum = 8;
 
    // System.out.println(myNum);
    // System.out.println(newNum);
 
    // incrementing variable
-   myNum = myNum + 1;
-   myNum = myNum + 1;
+   //myNum = myNum + 1;
+   //myNum = myNum + 1;
 
    // this handles the assingment and the addition at once
-   myNum++;
+   //myNum++;
 
    // decrementing
-   myNum = myNum - 1;
-   myNum--;
+   //myNum = myNum - 1;
+   //myNum--;
 
    //System.out.println(myNum);
    // System.out.println(newNum);
@@ -66,82 +66,107 @@ public class Main {
 
       // 10/5/26
 
-      double doubleNum = 5.0;
-      System.out.println((int) doubleNum / 2);
+      //double doubleNum = 5.0;
+      //System.out.println((int) doubleNum / 2);
    
       // cast from a double to an int, it will truncate our double
       // casting from an int to a double will just add .0 to the end
-      System.out.println((int) 4.3);
-      System.out.println((double) 2);
+      //System.out.println((int) 4.3);
+      //System.out.println((double) 2);
 
-      double number;    // positive value from somewhere
-      double negNumber; // negative value from somewhere
+      //double number;    // positive value from somewhere
+      //double negNumber; // negative value from somewhere
 
-      number = 4.9;
-      negNumber = -3.6;
-      int nearestInt = (int)(number + 0.5);
-      int nearestNegInt = (int)(negNumber - 0.5);
+      //number = 4.9;
+      //negNumber = -3.6;
+      //int nearestInt = (int)(number + 0.5);
+      //int nearestNegInt = (int)(negNumber - 0.5);
 
-      System.out.println(nearestInt);
-      System.out.println(nearestNegInt);
+      //System.out.println(nearestInt);
+      //System.out.println(nearestNegInt);
 
 
       //coding challenge:
       // 1) declare and initialize grades
-       int grade1 = 70;
-       int grade2 = 80;
-       int grade3 = 90;
+       //int grade1 = 70;
+       //int grade2 = 80;
+       //int grade3 = 90;
 
       // 2) declare sum
-       int sum = 80;
+      // int sum = 80;
 
       // 3) declare average as double
-       double average = 20.0;
+      // double average = 20.0;
 
       // 4) compute sum
-       sum = grade1 + grade2 + grade3;
+      // sum = grade1 + grade2 + grade3;
 
       // 5) compute average with casting
-       average = ((double) sum) / 3;
+       //average = ((double) sum) / 3;
 
       // 6) print result
-       System.out.println(average);
+       //System.out.println(average);
 
 
        // 10/6/26
        // compound assignment operators always have the math symbol first, and then the equal sign
-       average = average + 1;
-       average += 1;
-       System.out.println(average);
+       //average = average + 1;
+       //average += 1;
+       //System.out.println(average);
        
        // we can do compound operators with any number, not just 1
-       average -= 2;
+       //average -= 2;
        // our most condensed version only increments or decrements by 1
-       average--;
-       System.out.println(average);
+       //average--;
+       //System.out.println(average);
 
       // activity
-      int score = 0;
-      System.out.println(score); // 0
+     // int score = 0;
+     // System.out.println(score); // 0
 
-      score++;                   // +1
-      System.out.println(score); // 1
+     // score++;                   // +1
+     // System.out.println(score); // 1
 
-      score *= 2;                // ×2
-      System.out.println(score); // 2
+     // score *= 2;                // ×2
+     // System.out.println(score); // 2
 
-      int penalty = 5;
-      score -= penalty / 2;      // 2 - (5/2) -> 2 - 2 -> 0 (integer division)
-      System.out.println(score); // 0
+     // int penalty = 5;
+     // score -= penalty / 2;      // 2 - (5/2) -> 2 - 2 -> 0 (integer division)
+     // System.out.println(score); // 0
 
       // 1) Add 3 to score using a compound operator
-      score += 3; 
+     // score += 3; 
 
       // 2) Divide score by 2 using a compound operator
-      score /= 2;
+     // score /= 2;
 
-       // 10/22/26
+       // 10/23/26
 
+       //practicing using static methods from the math class
+       /*ABSOLUTE VALUE
+       int math.abs(int x)
+       double math.abs(double x)
+       */
+      int z = Math.abs(-45);
+      System.out.println(z);
+
+      int casted_z = (int) Math.abs(-45.7);
+      double y = (int) Math.abs(46.8);
+
+      /*POWER METHOD 
+      Math.pow(double x, double n) */
+
+      double base = 3;
+      double exponent = 4;
+      double solution = Math.pow(base, exponent);
+      System.out.println(solution);
+
+      int int_base = 3;
+      int int_exponent = 4;
+      double other_solution = Math.pow(int_base, in_exponent);
+      System.out.println(other_solution);
+
+      
        
 
 
@@ -223,6 +248,21 @@ public class Main {
       ex. methodname() {
         execute a task
       }
+
+      10/23/26
+      - Static
+      dont change
+      can be used without making an object
+
+      Instance-
+      need an object to work
+      ex. 
+      car{
+      getGas()
+      updateMiles()
+      }
+      Car myVan = newCar();
+      myVan.getGas()
 
 */
 
